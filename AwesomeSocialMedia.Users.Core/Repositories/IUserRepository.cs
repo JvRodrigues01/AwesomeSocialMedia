@@ -6,6 +6,6 @@ namespace AwesomeSocialMedia.Users.Core.Repositories
     {
         Task AddAsync(User user);
         Task UpdateAsync(User user);
-        Task<User> GetByIdAsync(Guid id);
+        Task<User?> GetByIdAsync(Guid id);
     }
 }

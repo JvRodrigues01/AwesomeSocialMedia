@@ -11,6 +11,7 @@ namespace AwesomeSocialMedia.Users.Application
         public static IServiceCollection AddMediator(this IServiceCollection services)
         {
             services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining(typeof(ApplicationModule)));
+
             return services;
         }
     }
