@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AwesomeSocialMedia.Users.Application\AwesomeSocialMedia.Users.Application.csproj" />
+    <ProjectReference Include="..\AwesomeSocialMedia.Users.Infra\AwesomeSocialMedia.Users.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

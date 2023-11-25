@@ -6,7 +6,7 @@ namespace AwesomeSocialMedia.Users.Core.Entities
 {
     public class User : AggregateRoot
     {
-        public User(string fullName, string displayName, DateTime birthDate, string email, UserStatusEnum status)
+        public User(string fullName, string displayName, DateTime birthDate, string email)
             : base()
         {
             FullName = fullName;

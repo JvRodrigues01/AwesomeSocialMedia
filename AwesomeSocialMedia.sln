@@ -5,11 +5,13 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{B367EB1C-EEE4-4DAF-886C-1AB8CB7489E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeSocialMedia.Users.Infra", "AwesomeSocialMedia.Users.Infra\AwesomeSocialMedia.Users.Infra.csproj", "{3848D77A-E83D-4434-8300-7C5A48353D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeSocialMedia.Users.Infra", "AwesomeSocialMedia.Users.Infra\AwesomeSocialMedia.Users.Infra.csproj", "{3848D77A-E83D-4434-8300-7C5A48353D7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeSocialMedia.Users.Api", "AwesomeSocialMedia.Users.Api\AwesomeSocialMedia.Users.Api.csproj", "{FE63909D-8892-45E2-A6C4-19DB0AFA8DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeSocialMedia.Users.Api", "AwesomeSocialMedia.Users.Api\AwesomeSocialMedia.Users.Api.csproj", "{FE63909D-8892-45E2-A6C4-19DB0AFA8DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeSocialMedia.Users.Core", "AwesomeSocialMedia.Users.Core\AwesomeSocialMedia.Users.Core.csproj", "{3CCF3216-3018-4CA7-8A14-8B30A61BD7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeSocialMedia.Users.Core", "AwesomeSocialMedia.Users.Core\AwesomeSocialMedia.Users.Core.csproj", "{3CCF3216-3018-4CA7-8A14-8B30A61BD7DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeSocialMedia.Users.Application", "AwesomeSocialMedia.Users.Application\AwesomeSocialMedia.Users.Application.csproj", "{815F56E7-B433-480A-829A-BCF5F87069E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{3CCF3216-3018-4CA7-8A14-8B30A61BD7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CCF3216-3018-4CA7-8A14-8B30A61BD7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CCF3216-3018-4CA7-8A14-8B30A61BD7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815F56E7-B433-480A-829A-BCF5F87069E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815F56E7-B433-480A-829A-BCF5F87069E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815F56E7-B433-480A-829A-BCF5F87069E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815F56E7-B433-480A-829A-BCF5F87069E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{3848D77A-E83D-4434-8300-7C5A48353D7D} = {B367EB1C-EEE4-4DAF-886C-1AB8CB7489E8}
 		{FE63909D-8892-45E2-A6C4-19DB0AFA8DFD} = {B367EB1C-EEE4-4DAF-886C-1AB8CB7489E8}
 		{3CCF3216-3018-4CA7-8A14-8B30A61BD7DB} = {B367EB1C-EEE4-4DAF-886C-1AB8CB7489E8}
+		{815F56E7-B433-480A-829A-BCF5F87069E3} = {B367EB1C-EEE4-4DAF-886C-1AB8CB7489E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B49B986-1216-4D69-BFF0-9538991D5119}
